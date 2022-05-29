@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+header h2 {
+  font-weight: 400;
+}
+
+header p {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+
+  align-items: center;
+  justify-content: center;
+}
+
+main div {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+main div h1 {
+  color: #000;
+}
+
+main div p {
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #b71540;
+}
+
+main div button {
+  font-size: 1.05rem;
+  font-weight: 400;
+
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 5rem;
+  transform: filter 0.25s;
+  width: 100%;
+  height: 3.25rem;
+}
+
+
+main div button:hover {
+  filter: brightness(0.95);
+}
+
+.removable {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.removable input, label{
+  cursor: pointer;
+}
